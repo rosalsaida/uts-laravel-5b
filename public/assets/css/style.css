@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 1.1rem;
+}
+
+.container {
+    width: 70%;
+    height: 30em;
+    margin: 0 auto;
+}
+
+.container .left-content {
+    float: left;
+    width: 35%;
+    height: 30em;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.container .right-content {
+    float: right;
+    background-color: #fff;
+    width: 65%;
+    height: 30em;
+    box-sizing: border-box;
+    padding: 5em 3em;
+}
+
+
+/* Button */
+
+.proses .btn {
+    min-width: 7em;
+    height: 3em;
+}
+
+
+/* Tabel Data */
+
+.container1 {
+    width: 85%;
+    height: 30em;
+    margin: 0 auto;
+}
+
+table thead tr {
+    text-align: center;
+}
+
+tbody .kodeBarang,
+tbody .action {
+    text-align: center;
+}
+
+
+/* tampil data pembelian */
+
+.content-tampil table {
+    width: 50vw;
+}
+
+.tampil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tampil th {
+    width: 15vw;
+    font-weight: 500;
+}
